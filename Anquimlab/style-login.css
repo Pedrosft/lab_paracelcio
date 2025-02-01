@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Yeon+Sung&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Golos Text', sans-serif;
+}
+
+
+body {
+	background-color: #064267;
+}
+
+.login-box {
+	width: 320px;
+	height: 420px;
+	background:  #4f9cf9;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	padding: 70px 30px;
+	border-radius: 10px;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: -40px;
+	left: calc(50% - 73px);
+	color: black;
+    background-color: #072b77;
+    padding: 10px;
+    border-radius: 70px;
+}
+
+.login-box h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	text-align: center;
+	font-size: 22px;
+    /* color: black; */
+    margin-top: 40px;
+}
+
+.login-box .user-box {
+	position: relative;
+}
+
+.login-box .user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+
+.login-box .user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: black;
+	font-size: 12px;
+}
+
+.login-box a {
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+	background: linear-gradient(90deg,#046694,#018ab0);
+	margin-top: 40px;
+	position: relative;
+	overflow: hidden;
+    text-decoration: none;
+}
+
+.login-box a span {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	left: -100%;
+	transition: 0.7s;
+}
+
+.login-box a span:nth-child(1) {
+	top: 0;
+	background: #03a9f4;
+}
+
+.login-box a span:nth-child(2) {
+	top: 0;
+	background: #03a9
+
+}
+.btnvoltar{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  
+
+}
+.btn{
+    background-color: #4f9cf9;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1;
+    text-decoration: none;
+    }
+.btn.animate-btn{
+    animation: animate-outline 1s ease-out infinite;
+}
+.btn:hover{
+    background-color: #3c80d3;
+}
