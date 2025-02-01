@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte awewsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/0b3c0f999c.js" crossorigin="anonymous"></script>
+    <!-- Fim Fonte awewsome -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Serviços | ANQUÍM.lab</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <!-- Imagem da Home -->
+    <header style="background-image: url('img/analises.jpg');">
+        <!-- container -->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img class="img-logo-moblie" src="img/logo-icon.png" width="200px" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="Anquimlab/login.html" target="_blank">sis.lab</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text" style="padding-bottom: 50px;">
+                    <h1>Nossos serviços</h1>
+                    <p>Oferecemos serviços especializados em análise química de alta qualidade.</p>
+                </div>
+            </section>
+        </div>
+        <!-- fim container  -->
+    </header>
+    <!--FIM HEADER-->
+    <!--NOSSOS SERVIÇOS-->
+    <section class="servicos">
+        <div class="container">
+            <h3>Nossos serviços</h3>
+            <p>Conheça nossos melhores serviços</p>
+            <!-- rows-cards -->
+            <div class="rows-cards">
+                <!-- row card item 1  -->
+                <div class="rows-card-item">
+                    <i class="fa-solid fa-bottle-water"></i>
+                    <p class="nome-servicos"><strong>Analise de água</strong></p>
+                </div>
+                <!--  fim row card item 1  -->
+                <!-- row card item 2  -->
+                <div class="rows-card-item">
+                    <i class="fa-solid fa-computer"></i>
+
+                    <p class="nome-servicos"><strong>sis.lab</strong></p>
+                </div>
+                <!--  fim row card item 2  -->
+                <!-- row card item 3  -->
+                <div class="rows-card-item">
+                    <i class="fa-solid fa-bottle-droplet"></i>
+                    <p class="nome-servicos"><strong>Coleta de Oléo</strong></p>
+                </div>
+                <!--  fim row card item 3  -->
+                <!-- row card item 4  -->
+                <div class="rows-card-item">
+                    <i class="fa-solid fa-soap"></i>
+                    <p class="nome-servicos"><strong>Produção de Sabão</strong></p>
+                </div>
+                <!--  fim row card item 4  -->
+                <!-- row card item 4  -->
+                <div class="rows-card-item">
+                    <i class="fa-solid fa-people-group"></i>
+                    <p class="nome-servicos"><strong>Aplicação de Projetos</strong></p>
+                </div>
+                <!--  fim row card item 4  -->
+
+            </div>
+            <!--fim rows-cards -->
+        </div> <!-- fim container -->
+
+    </section>
+    <!--FIM NOSSOS SERVIÇOS-->
+    <!--NOSSOS DADOS-->
+    <section class="dados">
+        <div class="container">
+            <!-- DADOS PROJETOS CONCLUIDOS -->
+            <div class="dados-item">
+                <i class="fa-solid fa-book-open"></i>
+                <p>
+                    <strong>
+                        0+
+                    </strong><br>
+                    Projetos Concluidos
+                </p>
+            </div>
+            <!-- FIM DADOS PROJETOS CONCLUIDOS -->
+            <!-- DADOS CLIESTES SATIFEITOS -->
+            <div class="dados-item">
+                <i class="fa-solid fa-face-smile"></i>
+                <p>
+                    <strong>
+                        0+
+                    </strong><br>
+                    Clientes Satifeitos
+                </p>
+            </div>
+            <!--FIM DADOS CLIESTES SATIFEITOS-->
+            <!--DADOS JORNADA DE TRABALHO-->
+            <div class="dados-item">
+                <i class="fa-solid fa-arrow-up-wide-short"></i>
+                <p>
+                    <strong>
+                        0+
+                    </strong><br>
+                    Análises Feitas
+                </p>
+            </div>
+            <!--FIM DADOS JORNADA DE TRABALHO-->
+        </div>
+
+    </section>
+    <!--FIM NOSSOS DADOS-->
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p>Desenvolvido por <a href="#" style="color: white;">@Pedroos_ft</a></p>
+
+        </div>
+
+    </footer>
+    <!--FIM FOOTER-->
+    <!-- LINK  PARA ARQUIVO JAVA  -->
+    <script src="js/main.js"></script>
+    <!-- LINK  PARA ARQUIVO JAVA  -->
+</body>
+
+</html>

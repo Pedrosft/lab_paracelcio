@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte awewsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/0b3c0f999c.js" crossorigin="anonymous"></script>
+    <!-- Fim Fonte awewsome -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>
+        ANQUÍM.lab
+    </title>
+</head>
+
+<body>
+    <!-- Inicio header -->
+    <!-- Imagem da Home -->
+    <header style="background-image: url('img/background-home.jpg');">
+        <!-- container -->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img class="img-logo-moblie" src="img/logo-icon.png" width="200px" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="Anquimlab/login.html" target="_blank">sis.lab</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <img src="img/logo2.png" width="500px" class="logo-mobile" alt="logo2">
+                    <h1>ANQUÍM.lab</h1>
+                    <p> Análises Químicas em laboratório (ANQUÍM.lab) é um laboratorio da Universidade Estatudal do
+                        Maranhão (UEMA) e
+                        somos
+                        responsaveis por analises de água.</p>
+                    <a href="contato.html" class="btn animate-btn">Entrar em contato </a>
+                </div>
+
+            </section>
+        </div>
+        <!-- fim container  -->
+    </header>
+    <!--fim header-->
+    <!--FISICO-QUIMICA-->
+    <section class="faca-mais">
+        <!-- container -->
+        <div class="container">
+            <!-- faça mais texto -->
+            <div class="faca-mais-text">
+                <h3>
+                    Análises físico-química
+                </h3>
+                <p>
+                    A análise físico-química é uma técnica utilizada para avaliar as propriedades físicas e químicas de
+                    uma substância ou material, como sua composição, densidade, pH, ponto de fusão, entre outras
+                    características.<br><br>
+                    <a href="contato.html" class="btn animate-btn btn-center">Entrar em contato </a>
+
+                    <!-- fim faça mais texto -->
+                    <!-- faça mais img -->
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/6.jpg" alt="">
+            </div>
+            <!-- fim faça mais img -->
+        </div>
+        <!-- fim container -->
+    </section>
+    <!--FIM FISICO-QUIMICA-->
+    <!--MICROBIOLOGICAS-->
+    <section class="faca-mais">
+        <!-- container -->
+        <div class="container">
+            <!-- faça mais img -->
+            <div class="faca-mais-img">
+
+                <img src="img/5.jpg" alt="">
+            </div>
+            <!-- fim faça mais img -->
+
+            <!-- faça mais texto -->
+            <div class="faca-mais-text">
+                <h3>
+                    Análises microbiológicas
+                </h3>
+                <p>
+                    A análise microbiológica é um processo de identificação e quantificação de microorganismos presentes
+                    em amostras de diferentes origens, como alimentos, água, medicamentos, entre outros. <br><br>
+                    <a href="contato.html" class="btn animate-btn btn-center">Entrar em contato </a>
+            </div>
+        </div>
+        <!-- fim faça mais texto -->
+        <!-- fim container -->
+
+    </section>
+    <!--FIM MICROBIOLOGICAS-->
+    <!--COLETAR OLÉO-->
+    <section class="faca-mais">
+        <!-- container -->
+        <div class="container">
+            <!-- faça mais texto -->
+            <div class="faca-mais-text">
+                <h3>
+                    Faça coleta de oléo com ANQUÍM.lab
+
+                </h3>
+                <p>
+                    A produção de sabão com óleo usado é uma prática sustentável e econômica, que contribui para a
+                    redução do descarte inadequado de resíduos e ainda gera um produto útil para o uso diário.<br><br>
+                    <a href="contato.html" class="btn animate-btn btn-center">Entrar em contato </a>
+
+
+                    <!-- fim faça mais texto -->
+                    <!-- faça mais img -->
+            </div>
+            <div class="faca-mais-img">
+
+                <img src="img/reciclagem.png" alt="">
+            </div>
+            <!-- fim faça mais img -->
+        </div>
+        <!-- fim container -->
+    </section>
+    <!--FIM COLETAR OLÉO-->
+    <!--AVALIAÇÃO-->
+    <section class="depoimentos">
+        <div class="container-2">
+            <h3>Nossas avaliações</h3>
+            <p>Leia o que nossos clientes falam de nós para o mundo</p>
+            <div class="cards">
+                <!-- CARD-INTEM 1 -->
+                <div class="card-item">
+                    <img src="img/mariano.PNG" alt="José Mariano">
+                    <p class="nome-user" style="color: rgb(0, 26, 97);">José Mariano</p>
+                    <p class="depoimento-user">O site de análise de água que utilizei foi muito útil e fácil
+                        de navegar.
+                        Eu gostei da interface simples e clara, que permitiu que eu entendesse facilmente os resultados
+                        das análises de água que eu havia solicitado.
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!-- FIM CARD-INTEM 1 -->
+                <!-- CARD-INTEM 2 -->
+                <div class="card-item">
+                    <img src="img/gustavo.PNG" alt="Gustavo">
+                    <p class="nome-user" style="color: rgb(0, 26, 97);">Gustavo Reis</p>
+                    <p class="depoimento-user">Os resultados da análise de água foram fornecidos rapidamente e
+                        de
+                        maneira precisa, permitindo que eu avaliasse a qualidade da minha água com confiança. Além
+                        disso, o site ofereceu sugestões úteis para melhorar a qualidade.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!-- FIM CARD-INTEM 2 -->
+                <!-- CARD-INTEM 3 -->
+                <div class="card-item">
+                    <img src="img/ph.PNG" alt="ph">
+                    <p class="nome-user" style="color: rgb(0, 26, 97);">Ph+</p>
+                    <p class="depoimento-user">A importância da qualidade da água para a saúde e
+                        o bem-estar, acredito que o custo vale a pena. Em resumo, eu recomendaria este site para
+                        qualquer pessoa que esteja procurando análises de água precisas e úteis.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!-- FIM CARD-INTEM 3 -->
+            </div>
+        </div>
+    </section>
+    <!--FIM AVALIAÇÃO-->
+    <!--APOIADORES-->
+    <section class="clientes">
+        <div class="container">
+            <h3>Apoiadores</h3>
+            <p>A ANQUIM.LAB conta com diversos apoiadores de renome no setor de pesquisas.</p>
+            <div>
+                <img src="img/CNPq.png" alt="" class="clientes-img" width="200px">
+                <img src="img/logo-uema-site.png" alt="" class="clientes-img" width="200px">
+                <img src="img/FAPEMA.png" alt="" class="clientes-img" width="200px" style="margin-top: -11px;">
+            </div>
+        </div>
+    </section>
+    <!--FIM APOIADORES-->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p>Desenvolvido por <a href="#" style="color: white;">@SAGE X</a></p>
+
+        </div>
+
+    </footer>
+    <!--FIM FOOTER-->
+
+
+    <!-- LINK  PARA ARQUIVO JAVA  -->
+    <script src="js/main.js"></script>
+    <!-- LINK  PARA ARQUIVO JAVA  -->
+</body>
+
+</html>
